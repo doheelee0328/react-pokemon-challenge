@@ -1,0 +1,27 @@
+.pokemon-container {
+  background-color: #d3d3d3;
+  width: 200px;
+  height: auto;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.pokemon-container:hover {
+  transform: scale(1.1);
+}
+.pokemon-name {
+  color: blue;
+  font-weight: 900;
+  font-size: 28px;
+}
+
+.pokemon-type {
+  font-weight: 900;
+  font-size: 18px;
+}
+.pokemon-image {
+  width: 120px;
+}
