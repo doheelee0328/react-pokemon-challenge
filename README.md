@@ -22,3 +22,6 @@ Each Pokecard component displays information about a Pokemon, including its name
 - Start the development server: "npm run dev"
 - Open your web browser and visit http://localhost:5173/ to view the app.
 
+
+## Final Look
+
