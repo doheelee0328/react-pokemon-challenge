@@ -1,7 +1,7 @@
 # react-pokemon-challenge
 
 ## Pokedex App
-Challenge in La fosse Academy where we had to build a simple web application that displays a Pokedex, which consists of multiple Pokecard components. 
+This project was developed as part of a challenge at La Fosse Academy. The challenge was to build a simple web application that displays a Pokedex, consisting of multiple Pokecard components. 
 
 ## Components
 The app consists of two main components:
@@ -17,7 +17,7 @@ Each Pokecard component displays information about a Pokemon, including its name
 
 ## To run the Pokedex App locally, follow these steps:
 
-- Clone the repository: git clone https://github.com/doheelee0328/react-pokemon-challenge.git
+- Clone the repository 
 - Install dependencies: "npm install"
 - Start the development server: "npm run dev"
 - Open your web browser and visit http://localhost:5173/ to view the app.
