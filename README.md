@@ -17,7 +17,7 @@ Each Pokecard component displays information about a Pokemon, including its name
 
 ## To run the Pokedex App locally, follow these steps:
 
-- Clone the repository: git clone https://github.com/your-username/pokedex-app.git
+- Clone the repository: git clone https://github.com/doheelee0328/react-pokemon-challenge.git
 - Install dependencies: "npm install"
 - Start the development server: "npm run dev"
 - Open your web browser and visit http://localhost:5173/ to view the app.
