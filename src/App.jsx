@@ -7,6 +7,7 @@ const App = () => {
   const [submittedText, setSubmittedText] = useState('')
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
+  const [showError, setShowError] = useState(false)
 
   return (
     <div>
@@ -16,8 +17,11 @@ const App = () => {
         submittedText={submittedText}
         setLoading={setLoading}
         setError={setError}
+        setShowError={setShowError}
       />
-      <Pokedex pokemonData={pokemonData} loading={loading} error={error} />
+
+      <Pokedex pokemonData={pokemonData} loading={loading} />
+      {showError && <p className='error'>{error}</p>}
     </div>
   )
 }

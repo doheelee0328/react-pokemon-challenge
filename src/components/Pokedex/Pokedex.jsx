@@ -1,12 +1,9 @@
-// import { pokemon } from '../PokemonList/PokemonList'
-
 import { Pokemon } from '..'
 import './style.css'
 
 const Pokedex = ({ pokemonData, loading }) => {
   return (
     <div>
-      {/* {error && <p>{error}</p>} */}
       {loading ? (
         <div>
           <p className='loading'>Loading...</p>
@@ -22,7 +19,9 @@ const Pokedex = ({ pokemonData, loading }) => {
           />
         ))
       ) : (
-        <p className='no-pokemon'>No pokemon yet, please submit a pokemon!</p>
+        <div>
+          <p className='no-pokemon'>No pokemon yet, please submit a pokemon!</p>
+        </div>
       )}
     </div>
   )

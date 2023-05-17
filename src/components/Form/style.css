@@ -13,21 +13,22 @@
 
   text-align: center;
   font-size: 30px;
-  background-clip: text;
-  -webkit-background-clip: text; /* Safari/Chrome support */
-  color: transparent;
-  -webkit-text-fill-color: #333333; /* Desired text color */
-  -moz-text-fill-color: #333333; /* Desired text color for Firefox */
+
+  background: linear-gradient(to bottom, #ffe173, #95a3a4, #7299a5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
 }
 
 #pokemonInput {
-  width: 30vw;
+  width: 380px;
   height: 3vh;
+  border: 1px solid #7299a5;
 }
 .button {
   background: linear-gradient(to bottom, #95a3a4, #7299a5);
   border: none;
-  width: 30.5vw;
+  width: 380px;
   height: 4vh;
   cursor: pointer;
   font-weight: 900;

@@ -9,7 +9,12 @@
 }
 
 .no-pokemon,
-.loading {
+.loading,
+.error {
   font-size: 20px;
   text-align: center;
+  background: linear-gradient(to bottom, #ffe173, #95a3a4, #7299a5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
 }

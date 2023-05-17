@@ -6,6 +6,7 @@ const Form = ({
   submittedText,
   setLoading,
   setError,
+  setShowError,
 }) => {
   const [pokemonName, setPokemonName] = useState('')
 
@@ -33,11 +34,14 @@ const Form = ({
             setTimeout(() => {
               setLoading(false)
             }, 500)
+            setShowError(false)
           } else {
-            setError(`Cannot find ${submittedText}`)
+            setError(`Cannot Find ${submittedText}`)
+            setShowError(true)
           }
         } catch (error) {
           setError('An error occurred while fetching Pokemon data.')
+          setShowError(true)
         }
       }
     }
