@@ -7,3 +7,9 @@
   width: 60%;
   margin: auto;
 }
+
+.no-pokemon,
+.loading {
+  font-size: 20px;
+  text-align: center;
+}

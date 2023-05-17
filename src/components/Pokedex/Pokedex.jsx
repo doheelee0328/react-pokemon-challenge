@@ -1,12 +1,29 @@
-import { pokemon } from '../PokemonList/PokemonList'
-import Pokemon from '../Pokemon/Pokemon'
+// import { pokemon } from '../PokemonList/PokemonList'
+
+import { Pokemon } from '..'
 import './style.css'
-const Pokedex = () => {
+
+const Pokedex = ({ pokemonData, loading, error }) => {
   return (
-    <div className='card-container'>
-      {pokemon.map(({ id, name, type, image }) => (
-        <Pokemon key={id} name={name} type={type} image={image} />
-      ))}
+    <div>
+      {error && <p>{error}</p>}
+      {loading ? (
+        <div>
+          <p className='loading'>Loading...</p>
+        </div>
+      ) : pokemonData.length ? (
+        pokemonData.map((pokemon, index) => (
+          <Pokemon
+            key={index}
+            name={pokemon.name}
+            img={pokemon.sprites.front_default}
+            pokemonHeight={pokemon.height}
+            pokemonWeight={pokemon.weight}
+          />
+        ))
+      ) : (
+        <p className='no-pokemon'>No pokemon yet, please submit a pokemon!</p>
+      )}
     </div>
   )
 }
