@@ -29,10 +29,12 @@ const Form = ({
           )
           if (response.ok) {
             const data = await response.json()
-            setPokemonData((prev) => [...prev, data])
+            setPokemonData([data])
             setTimeout(() => {
               setLoading(false)
             }, 500)
+          } else {
+            setError(`Cannot find ${submittedText}`)
           }
         } catch (error) {
           setError('An error occurred while fetching Pokemon data.')

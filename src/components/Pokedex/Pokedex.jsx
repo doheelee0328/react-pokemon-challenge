@@ -3,10 +3,10 @@
 import { Pokemon } from '..'
 import './style.css'
 
-const Pokedex = ({ pokemonData, loading, error }) => {
+const Pokedex = ({ pokemonData, loading }) => {
   return (
     <div>
-      {error && <p>{error}</p>}
+      {/* {error && <p>{error}</p>} */}
       {loading ? (
         <div>
           <p className='loading'>Loading...</p>

@@ -8,6 +8,16 @@
 .type-pokemon {
   text-align: center;
   font-size: 30px;
+  background-clip: text;
+  color: transparent;
+
+  text-align: center;
+  font-size: 30px;
+  background-clip: text;
+  -webkit-background-clip: text; /* Safari/Chrome support */
+  color: transparent;
+  -webkit-text-fill-color: #333333; /* Desired text color */
+  -moz-text-fill-color: #333333; /* Desired text color for Firefox */
 }
 
 #pokemonInput {
@@ -15,14 +25,17 @@
   height: 3vh;
 }
 .button {
-  background-color: #d3d3d3;
+  background: linear-gradient(to bottom, #95a3a4, #7299a5);
   border: none;
   width: 30.5vw;
   height: 4vh;
   cursor: pointer;
   font-weight: 900;
+  color: #ffe173;
+  font-size: 15px;
 }
 
 .button:hover {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
 }

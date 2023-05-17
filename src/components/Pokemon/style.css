@@ -1,5 +1,5 @@
 .pokemon-container {
-  background-color: #d3d3d3;
+  background: linear-gradient(to bottom, #95a3a4, #7299a5);
   width: 200px;
   height: auto;
   margin: 10px;
@@ -12,12 +12,13 @@
   box-sizing: border-box;
   margin: auto;
   margin-top: 15px;
+  border: 10px solid #ffe173;
 }
 .pokemon-container:hover {
   transform: scale(1.1);
 }
 .pokemon-name {
-  color: blue;
+  color: #ffff;
   font-weight: 900;
   font-size: 28px;
 }
@@ -29,4 +30,5 @@
 .pokemon-weight {
   font-size: 18px;
   font-weight: 900;
+  color: #ffff;
 }
