@@ -4,7 +4,7 @@
 This project was developed as part of a challenge at La Fosse Academy. The challenge was to build a simple React app that allows users to enter a Pokemon name. 
 
 ## Components
-The app consists of two main components:
+The app consists of three main components:
 
 Form Component: This is responsible for rendering the form where users can enter a Pokemon name. It manages the state of the entered Pokemon name using the useState hook. When the form is submitted, it triggers the handleSubmit function, which sets the submitted Pokemon name using the setSubmittedText function passed as a prop.
 
