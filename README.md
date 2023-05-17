@@ -41,7 +41,8 @@ Pokecard Component: This is a child component of the Pokedex component. It recei
 
 <img width="645" alt="Screenshot 2023-05-17 at 17 57 13" src="https://github.com/doheelee0328/react-pokemon-challenge/assets/112406576/e456f635-23a8-4167-8d54-f5f93d2c5c85">
 <img width="743" alt="Screenshot 2023-05-17 at 17 57 31" src="https://github.com/doheelee0328/react-pokemon-challenge/assets/112406576/43822a9d-6c3c-4189-adc2-524e11bbece9">
-<img width="821" alt="Screenshot 2023-05-17 at 17 57 45" src="https://github.com/doheelee0328/react-pokemon-challenge/assets/112406576/e2801c01-2645-46f7-98ee-21318a91bc08">
+<img width="587" alt="Screenshot 2023-05-17 at 17 59 34" src="https://github.com/doheelee0328/react-pokemon-challenge/assets/112406576/71b772d9-1290-473a-8d7b-a5d77cbb7f2a">
+
 
 
 
