@@ -18,6 +18,7 @@ Pokecard Component: This is a child component of the Pokedex component. It recei
 - Display the Pokemon data as soon as it arrives
 - Show a loading screen while fetching the data
 - Display a message when no Pokemon data has been fetched yet
+- If the entered name does not match any Pokémon, an error message will be displayed
 
 ## Usage
 
@@ -26,6 +27,7 @@ Pokecard Component: This is a child component of the Pokedex component. It recei
 - While the data is being fetched, a loading message will be displayed.
 - Once the Pokemon data is fetched, it will be displayed on the screen.
 - If no Pokemon data has been fetched yet, a message saying "No pokemon yet, please submit a pokemon!" will be shown.
+- If you type the Pokemon name that does not exits, a message saying "Cannot find (the name you typed in the search bar)" will be shown
 
 ## To run the Pokedex App locally, follow these steps:
 
@@ -36,8 +38,11 @@ Pokecard Component: This is a child component of the Pokedex component. It recei
 
 
 ## Final Look
-<img width="900" alt="Screenshot 2023-05-17 at 01 33 17" src="https://github.com/doheelee0328/react-pokemon-challenge/assets/112406576/ccbde217-cbfc-459c-af4b-676be3e0eadb">
-<img width="900" alt="Screenshot 2023-05-17 at 01 33 32" src="https://github.com/doheelee0328/react-pokemon-challenge/assets/112406576/d219f28c-0b29-4daf-9d4e-08b60bc30eac">
+
+<img width="645" alt="Screenshot 2023-05-17 at 17 57 13" src="https://github.com/doheelee0328/react-pokemon-challenge/assets/112406576/e456f635-23a8-4167-8d54-f5f93d2c5c85">
+<img width="743" alt="Screenshot 2023-05-17 at 17 57 31" src="https://github.com/doheelee0328/react-pokemon-challenge/assets/112406576/43822a9d-6c3c-4189-adc2-524e11bbece9">
+<img width="587" alt="Screenshot 2023-05-17 at 17 59 34" src="https://github.com/doheelee0328/react-pokemon-challenge/assets/112406576/71b772d9-1290-473a-8d7b-a5d77cbb7f2a">
+
 
 
 
