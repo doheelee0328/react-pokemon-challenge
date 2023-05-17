@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react'
+import axios from 'axios'
 import './style.css'
+
 const Form = ({
   setPokemonData,
   setSubmittedText,
@@ -25,12 +27,12 @@ const Form = ({
       if (submittedText !== '') {
         setLoading(true)
         try {
-          const response = await fetch(
+          const response = await axios.get(
             `https://pokeapi.co/api/v2/pokemon/${submittedText}`
           )
-          if (response.ok) {
-            const data = await response.json()
-            setPokemonData([data])
+          if (response.status === 200) {
+            // const data = await response.json()
+            setPokemonData([response.data])
             setTimeout(() => {
               setLoading(false)
             }, 500)
@@ -51,7 +53,7 @@ const Form = ({
   return (
     <div>
       <form onSubmit={handleSubmit} className='form-container'>
-        <label className='type-pokemon'>Enter a Pokémon name</label>
+        <p className='type-pokemon'>Enter a Pokémon name</p>
         <input
           type='text'
           id='pokemonInput'
