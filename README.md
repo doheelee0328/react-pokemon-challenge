@@ -14,8 +14,10 @@ Pokecard Component: This is a child component of the Pokedex component. It recei
 
 ## Features
 
-The Pokedex component renders a specific number of Pokecard components for each Pokemon in the Pokedex.
-Each Pokecard component displays information about a Pokemon, including its name, image, and type.
+- Enter a Pokemon name and fetch its data
+- Display the Pokemon data as soon as it arrives
+- Show a loading screen while fetching the data
+- Display a message when no Pokemon data has been fetched yet
 
 ## Usage
 
