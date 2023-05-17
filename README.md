@@ -34,8 +34,8 @@ Each Pokecard component displays information about a Pokemon, including its name
 
 
 ## Final Look
-<img width="1166" alt="Screenshot 2023-05-17 at 01 33 17" src="https://github.com/doheelee0328/react-pokemon-challenge/assets/112406576/ccbde217-cbfc-459c-af4b-676be3e0eadb">
-<img width="930" alt="Screenshot 2023-05-17 at 01 33 32" src="https://github.com/doheelee0328/react-pokemon-challenge/assets/112406576/d219f28c-0b29-4daf-9d4e-08b60bc30eac">
+<img width="900" alt="Screenshot 2023-05-17 at 01 33 17" src="https://github.com/doheelee0328/react-pokemon-challenge/assets/112406576/ccbde217-cbfc-459c-af4b-676be3e0eadb">
+<img width="900" alt="Screenshot 2023-05-17 at 01 33 32" src="https://github.com/doheelee0328/react-pokemon-challenge/assets/112406576/d219f28c-0b29-4daf-9d4e-08b60bc30eac">
 
 
 
