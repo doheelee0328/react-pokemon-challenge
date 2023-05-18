@@ -37,8 +37,6 @@ Pokecard Component: This is a child component of the Pokedex component. It recei
 - Open your web browser and visit http://localhost:5173/ to view the app.
 
 
-## Final Look
-
 <img width="1054" alt="Screenshot 2023-05-18 at 15 06 28" src="https://github.com/doheelee0328/react-pokemon-challenge/assets/112406576/14d48bb2-1976-498d-8c68-293d03a67c7a">
 <img width="881" alt="Screenshot 2023-05-18 at 15 06 39" src="https://github.com/doheelee0328/react-pokemon-challenge/assets/112406576/93e29907-ef9a-4bc6-85c9-e1b649d315c6">
 <img width="1039" alt="Screenshot 2023-05-18 at 15 18 21" src="https://github.com/doheelee0328/react-pokemon-challenge/assets/112406576/3c505449-d2b9-4c5d-a8f3-1f0699debf4a">
