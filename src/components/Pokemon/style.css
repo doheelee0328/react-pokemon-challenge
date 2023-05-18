@@ -1,6 +1,6 @@
 .pokemon-container {
   background: linear-gradient(to bottom, #95a3a4, #7299a5);
-  width: 230px;
+  width: 270px;
   height: auto;
   margin: 10px;
   display: flex;
@@ -20,7 +20,7 @@
 .pokemon-name {
   color: #ffff;
   font-weight: 900;
-  font-size: 28px;
+  font-size: 20px;
 }
 .pokemon-image {
   width: 180px;
@@ -29,7 +29,7 @@
 .pokemon-height,
 .pokemon-weight,
 .pokemon-types {
-  font-size: 18px;
+  font-size: 13px;
   font-weight: 900;
   color: #ffff;
 }

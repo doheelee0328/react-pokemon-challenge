@@ -37,12 +37,9 @@ const Form = ({
               setLoading(false)
             }, 500)
             setShowError(false)
-          } else {
-            setError(`Cannot Find ${submittedText}`)
-            setShowError(true)
           }
         } catch (error) {
-          setError('An error occurred while fetching Pokemon data.')
+          setError('An error occurred while fetching Pokemon data')
           setShowError(true)
         }
       }
@@ -53,7 +50,9 @@ const Form = ({
   return (
     <div>
       <form onSubmit={handleSubmit} className='form-container'>
-        <p className='type-pokemon'>Enter a Pokémon name</p>
+        <label className='type-pokemon' htmlFor='pokemonInput'>
+          Enter a Pokémon name
+        </label>
         <input
           type='text'
           id='pokemonInput'
