@@ -1,5 +1,5 @@
 import './style.css'
-const Pokemon = ({ name, img, pokemonWeight, pokemonHeight }) => {
+const Pokemon = ({ name, img, pokemonWeight, pokemonHeight, pokemonType }) => {
   return (
     <>
       <div className='pokemon-container'>
@@ -8,6 +8,14 @@ const Pokemon = ({ name, img, pokemonWeight, pokemonHeight }) => {
         <div className='container-height-weight'>
           <p className='pokemon-height'>Height: {pokemonHeight}</p>
           <p className='pokemon-weight'>Weight: {pokemonWeight}</p>
+        </div>
+        <div className='pokemon-types'>
+          Type:
+          {pokemonType.map((el, index) => (
+            <span key={index} className='type'>
+              {el.type.name}
+            </span>
+          ))}
         </div>
       </div>
     </>

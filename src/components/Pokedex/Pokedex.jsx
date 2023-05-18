@@ -16,6 +16,7 @@ const Pokedex = ({ pokemonData, loading }) => {
             img={pokemon.sprites.front_default}
             pokemonHeight={pokemon.height}
             pokemonWeight={pokemon.weight}
+            pokemonType={pokemon.types}
           />
         ))
       ) : (

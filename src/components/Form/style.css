@@ -12,8 +12,8 @@
   color: transparent;
 
   text-align: center;
-  font-size: 30px;
-
+  font-size: 40px;
+  animation: bounce 0.5s infinite;
   background: linear-gradient(to bottom, #ffe173, #95a3a4, #7299a5);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -39,4 +39,14 @@
 .button:hover {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   transform: scale(1.1);
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
 }
